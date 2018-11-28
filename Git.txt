@@ -1,0 +1,12 @@
+Steps to Upload the files in to github
+    Step 1: Create a repository in your github account
+    Step 2: Now create a local file in your local directory
+    Step 3: Now clone your repository in to local folder using clone
+    Step 4: Now copy all the files you want in to this local directory
+            git add filename
+            git add .
+    Step 5: Now commit the changes
+            git commit -m "message"
+    Step 6: Now push the changes to github
+            git push origin master
+            enter your credentials.

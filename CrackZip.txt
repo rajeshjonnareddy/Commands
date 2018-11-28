@@ -1,0 +1,10 @@
+steps to crack the zip or rar files 
+    For Zip
+    step 1: zip2john sourcefile.zip > hashes.txt
+    step 2: john --format=zip /path/to/hash.txt 
+    step 3: wait till you get the password
+    
+    For rar
+    step 1: rar2john sourcefile.zip > hashes.txt
+    step 2: john --format=rar /path/to/hash.txt
+    step 3: wait till you get the password
