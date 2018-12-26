@@ -1,12 +1,31 @@
 Steps to Upload the files in to github
     Step 1: Create a repository in your github account
-    Step 2: Now create a local file in your local directory
-    Step 3: Now clone your repository in to local folder using clone
-    Step 4: Now copy all the files you want in to this local directory
-            git add filename
-            git add .
+    Step 2: In your local machine initiate git
+	    git init
+    Step 3: Now set the git to your master branch
+	    git remote add origin https://github.com/dshfjdsfkhsdk/Commands.git
+    Step 4: check the origin and add the files in to directory
+	    git remote -v
+	Now add the files you want to add
+            git add filename (for one particular file)
+            git add . (only for all files)
     Step 5: Now commit the changes
             git commit -m "message"
     Step 6: Now push the changes to github
             git push origin master
             enter your credentials.
+
+Steps to Edit a file in github
+	Step 1: clone the repository using the clone method
+		git clone https://github.com/dshfjdsfkhsdk/Commands.git
+	Step 2: Go to the cloned folder and edit all the changes you want
+		cd folder\ name
+		nano edit.txt
+		save the changes
+	Step 3: check for status and add the file in to your git
+		git status
+		git add Edit.txt
+	Step 4: Commit and enter the message and then push
+		git commit -m "message"
+		git push origin master
+	
