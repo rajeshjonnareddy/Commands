@@ -12,7 +12,9 @@ Steps to Upload the files in to github
     Step 5: Now commit the changes
             git commit -m "message"
     Step 6: Now push the changes to github
-            git push origin master
+            git push origin master 
+	    	     (or)
+	    git push -f origin master (force commit)
             enter your credentials.
 
 Steps to Edit a file in github
@@ -27,5 +29,7 @@ Steps to Edit a file in github
 		git add Edit.txt
 	Step 4: Commit and enter the message and then push
 		git commit -m "message"
-		git push origin master
+		git push origin master 
+	    	     (or)
+	    	git push -f origin master (force commit)
 	
