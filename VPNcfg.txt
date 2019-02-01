@@ -1,7 +1,10 @@
 Step 1: Check your IP address
 		whatsmyip.com
-Step 2: download configuratio files from vpnbook.com
+Step 2: download configuration files from vpnbook.com
 			select your vpn server and download the file and extract it.
+			Refer to this video 
+			https://www.youtube.com/watch?v=VEMMd2tp1fw 
+			
 Step 3: Save the username and password from the VPNbook website for signing in
 Step 4: run the following commands
 			i.	sudo apt-get install openvpn
