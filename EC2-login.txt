@@ -35,4 +35,11 @@ Step 6: Save it and start your instance
 Step 7: click on instance Connect and run the command
 	ssh -i "filename.pem" ubuntu@ec2-3-14-145-233.us-east-2.compute.amazonaws.com
 
+		
 
+		Sending/Receiving files
+Step 1: open terminal and use this command to send files from local to server
+	$scp -i "ubuntu.pem" /Desktop/filename.txt  ubuntu@ec2-54-166-128-20.compute-1.amazonaws.com:/home/ubuntu/
+Step 2: from server to local 
+	$scp -i "ubuntu.pem" ubuntu@ec2-54-166-128-20.compute-1.amazonaws.com:/home/ubuntu/ ~/Download/
+											     d:/
