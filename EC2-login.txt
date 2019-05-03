@@ -1,0 +1,16 @@
+Step 1: Create instance and generate new .pem file
+Step 2: Install putty and open puttygen
+Step 3: Load existing .pem file and copy public key and generate ppk 
+file and save the private key file as .ppk file
+Step 4: Go to your instance and stop it
+Step 5: Change user data in instance settings and pase this code
+	#cloud-config
+	ssh_deletekeys: false
+	ssh_authorized_keys:
+	  - ssh-rsa PUBLIC KEY
+	cloud_final_modules:
+	  - [ssh, always]
+	Paste your public key @PUBLIC KEY
+Step 6: Save it and start your instance
+Step 7: Start putty and load ppk file from Contents/ssh/Auth/Browse 
+and enter instance hostname and connect.
