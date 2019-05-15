@@ -3,3 +3,7 @@ ansible -m ping all
 ansible webservers -m ping 
 ansible webservers -m shell -a 'linux_commands'
 ansible -i /home/ubuntu/downloads/hostfile -m ping webservers
+ansible-doc apt
+ansible-doc -l |more
+ansible-playbook test.yml --syntax-check
+
