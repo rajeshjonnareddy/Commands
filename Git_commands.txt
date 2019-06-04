@@ -40,6 +40,22 @@ git merge <source branch> <destination branch>
 
 git push -u --all (to update central repository with multiple branches)
 
+git merge <commit ID>
 
+git cherry-pick <commit ID>
+
+git stash 
+
+git stash list
+
+git stash apply stash@{num}
+
+git stash show stash@{number}
+
+git stash clear (deletes stashes)
+
+git stash pop (removes the latest entry)
+
+ 
 
 
