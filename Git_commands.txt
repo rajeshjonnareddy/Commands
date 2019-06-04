@@ -56,6 +56,32 @@ git stash clear (deletes stashes)
 
 git stash pop (removes the latest entry)
 
- 
+git reset --soft
+
+git reset --mixed
+
+git reset --hard
+
+git revert <commit ID>
+
+git checkout <commit ID>
+
+git checkout <branch name>
+
+git rm <filename> and commit
+
+git clean -n (dont remove, it shows the files)
+
+git clean -f (delete the untracked files)
+
+git tag -a "reference name" -m "creating tags" <comment ID>
+
+git tag (show)
+
+git push --tags (sharing the tags with central repository)
+
+
+
+
 
 
