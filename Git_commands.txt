@@ -30,6 +30,16 @@ git log --oneline | tail -1
 
 git help [command, command,command]
 
+git branch
+
+git branch branch_name
+
+git checkout branch_name (change the branch)
+
+git merge <source branch> <destination branch>
+
+git push -u --all (to update central repository with multiple branches)
+
 
 
 
