@@ -1,0 +1,35 @@
+git config --global user.name "username"
+
+git config --globla user.email "emailID"
+
+git init
+
+git status
+
+git add *
+
+git add .
+
+git commit -m "message"
+
+git push origin master 
+
+mkdir .gitignore
+
+git log 
+
+git log -2 (only two commit ID logs)
+
+git log --oneline (1 line logs)
+
+git log --oneline -3 
+
+git log --grep "search string"
+
+git log --oneline | tail -1
+
+git help [command, command,command]
+
+
+
+
