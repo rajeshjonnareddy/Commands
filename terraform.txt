@@ -1,0 +1,16 @@
+Installing Terraform in Linux
+	
+	Step 1: Download the zip file from terraform website and extract it.
+	Step 2: Move the terraform file to /usr/local/bin/
+	        or 
+	        add current location to PATH variable.
+	Step 3: Terraform --version
+	
+Installing Terraform in Windows
+
+	Step 1: Download the zip file from terraform website and extract it.
+	Step 2: Move the terraform file to /usr/home/
+			or 
+			Add the current path in PATH environment variable.
+	Step 3: terraform --version
+	
